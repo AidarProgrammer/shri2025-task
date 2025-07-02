@@ -390,9 +390,9 @@ html, body {
     }
 }
 
-.hero-dashboard__icon_rain {
+/* .hero-dashboard__icon_rain {
     background-image: url(assets/cloud-drizzle.svg);
-}
+} */
 
 .hero-dashboard__schedule {
     display: flex;
@@ -458,7 +458,7 @@ html, body {
     background-size: contain;
 }
 
-.event__icon_temp {
+/* .event__icon_temp {
     background-image: url(assets/icon_temperature.svg);
 }
 
@@ -472,11 +472,8 @@ html, body {
 
 .event__icon_light2 {
     background-image: url(assets/icon_sun_2.svg);
-}
+} */
 
-.event__icon_schedule {
-    background-image: url(assets/icon_scheduled.svg);
-}
 
 .event__title {
     margin: 0;
