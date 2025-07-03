@@ -1,41 +1,46 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Яндекс.Дом</title>
-  <link rel="preload" href="assets/index-UCfSU95V.css" as="style">
-  <link rel="preload" href="assets/index-CY5NU-Mi.js" as="script">
-  <link rel="stylesheet" crossorigin href="assets/index-UCfSU95V.css">
+  
+  <!-- Preload с корректным crossorigin -->
+  <link rel="preload" href="assets/index-UCfSU95V.css" as="style" crossorigin>
+  <link rel="preload" href="assets/index-CY5NU-Mi.js" as="script" crossorigin>
+  
+  <!-- Основной CSS -->
+  <link rel="stylesheet" href="assets/index-UCfSU95V.css" crossorigin>
+  
+  <!-- Оригинальный встроенный стиль (пустой, как в исходнике) -->
+  <style></style>
 </head>
 
 <body>
   <div id="root"></div>
-  <style>
-    
-  </style>
+  
   <footer class="footer">
-            <ul class="footer__list">
-                <li class="footer__item">
-                    <a class="footer__link" href="/">Помощь</a>
-                </li>
-                <li class="footer__item">
-                    <a class="footer__link" href="/">Обратная связь</a>
-                </li>
-                <li class="footer__item">
-                    <a class="footer__link" href="/">Разработчикам</a>
-                </li>
-                <li class="footer__item">
-                    <a class="footer__link" href="/">Условия использования</a>
-                </li>
-            </ul>
+    <ul class="footer__list">
+      <li class="footer__item">
+        <a class="footer__link" href="/">Помощь</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="/">Обратная связь</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="/">Разработчикам</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="/">Условия использования</a>
+      </li>
+    </ul>
 
-            <div class="footer__copyright">
-                © 1997–2023 ООО «Яндекс»
-            </div>
-        </footer>
-        <script type="module" crossorigin src="assets/index-CY5NU-Mi.js"></script>
+    <div class="footer__copyright">
+      © 1997–2023 ООО «Яндекс»
+    </div>
+  </footer>
+
+  <!-- Модульный скрипт -->
+  <script type="module" crossorigin src="assets/index-CY5NU-Mi.js"></script>
 </body>
-
 </html>
